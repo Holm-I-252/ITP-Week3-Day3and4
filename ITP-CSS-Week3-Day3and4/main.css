@@ -1,0 +1,146 @@
+html, head, body, h1, h2, h3, a, img, p, hr {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #000
+}
+h1 {
+    color: #fff;
+    font-size: 20px;
+}
+h2 {
+    color: #fff;
+}
+hr {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+.nav {
+    background-image: url(foodpic5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+}
+.nav h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+.nav img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.nav h2 {
+    padding: 20px;
+    position: absolute;
+    border-bottom: 1px, #fff;
+}
+.nav a {
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav p {
+    font-size: 40px;
+    color: #fff;
+}
+.navLinks {
+    float: right;
+}
+.title {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 50px;
+    text-align: center;
+}
+.paragraph1 {
+    display: flex;
+}
+.paragraph1text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 600px;
+    margin-left: 100px;
+}
+.paragraph1 img {
+    max-width: 400px;
+    max-height: 400px;
+    left: 0%;
+}
+.paragraph1 h3 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+.paragraph1 p {
+    font-size: 25px;
+    max-width: 600px;
+    color: #fff;
+}
+.paragraph2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.paragraph2text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 600px;
+    margin-right: 100px;
+}
+.paragraph2 img {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 400px;
+    max-height: 400px;
+    right: 0%;
+}
+.paragraph2 h3 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+.paragraph2 p {
+    font-size: 25px;
+    max-width: 600px;
+    color: #fff;
+}
+.paragraph3 {
+    display: flex;
+}
+.paragraph3text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 600px;
+    margin-left: 100px;
+}
+.paragraph3 img {
+    max-width: 400px;
+    max-height: 400px;
+    left: 0%;
+}
+.paragraph3 h3 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+.paragraph3 p {
+    font-size: 25px;
+    max-width: 600px;
+    color: #fff;
+}
