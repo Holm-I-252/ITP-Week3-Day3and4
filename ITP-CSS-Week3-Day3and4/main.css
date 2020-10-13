@@ -28,7 +28,6 @@ hr {
 }
 .nav h1 {
     font-size: 100px;
-    text-decoration: underline;
 }
 .nav img {
     flex-shrink: 0;
@@ -143,4 +142,20 @@ hr {
     font-size: 25px;
     max-width: 600px;
     color: #fff;
+}
+.nav .bar1 {
+    height: 2px;
+    width: 100%;
+    align-content: center;
+    background-color: #fff;
+    position: absolute;
+    top: 45px;
+}
+.nav .bar2 {
+    height: 2px;
+    width: 100%;
+    align-content: center;
+    background-color: #fff;
+    position: absolute;
+    top: 115px;
 }
